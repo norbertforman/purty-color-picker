@@ -1,8 +1,8 @@
-# Purty::Color::Picker
+# Purty Color Picker
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/purty/color/picker`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem embeddes the Purty Color Picker in the Rails asset pipeline.
 
-TODO: Delete this and the text above, and describe your gem
+A super lightweight visual HSL, RGB and hex color picker with a responsive, touch-friendly and customizable UI. Based on the Lightweight & Touch-enabled jQuery Color Picker Plugin - Purty Picker from [jaydenseric](https://github.com/jaydenseric/Purty-Picker)
 
 ## Installation
 
@@ -24,18 +24,19 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
-## Development
+## Browser Support
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+For modern browsers (IE10+ and recent versions of Chrome, Safari, Firefox), mostly due to the use of CSS3 linear gradients. Support for older browsers should be possible with a few modifications.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+## Dependencies
+
+Requires [jQuery](https://github.com/jquery/jquery) or [Zepto](https://github.com/madrobby/zepto) with core and event modules.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/purty-color-picker. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/norbertforman/purty-color-picker. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-

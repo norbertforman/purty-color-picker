@@ -6,12 +6,12 @@ require 'purty/color/picker/version'
 Gem::Specification.new do |spec|
   spec.name          = "purty-color-picker"
   spec.version       = Purty::Color::Picker::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["Norbert Forman"]
+  spec.email         = ["norbert.forman@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{This gem embeddes the Purty Color Picker in the Rails asset pipeline.}
+  spec.description   = %q{A super lightweight visual HSL, RGB and hex color picker with a responsive, touch-friendly and customizable UI.}
+  spec.homepage      = "https://github.com/norbertforman/purty-color-picker"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
