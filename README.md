@@ -20,9 +20,19 @@ Or install it yourself as:
 
     $ gem install purty-color-picker
 
-## Usage
+Add to `app/assets/javascripts/application.js`:
 
-TODO: Write usage instructions here
+```javascript
+//= require color-picker
+```
+
+Add to `app/assets/stylesheets/application.css`:
+
+```css
+/*
+ *= require color-picker
+ */
+```
 
 ## Browser Support
 
